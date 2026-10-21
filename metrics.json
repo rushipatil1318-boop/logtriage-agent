@@ -1,0 +1,49 @@
+[
+  {
+    "n": 150,
+    "fault_class_accuracy": 1.0,
+    "fault_class_macro_f1": 1.0,
+    "root_line_accuracy": 1.0,
+    "severity_accuracy": 1.0,
+    "duplicate_precision": 0.8462,
+    "duplicate_recall": 1.0,
+    "duplicate_f1": 0.9167,
+    "citation_validity": 1.0,
+    "retry_rate": 0.0,
+    "human_review_rate": 0.0,
+    "mean_latency_s": 0.004,
+    "errors_by_class": {},
+    "backend": "offline-rules",
+    "prompt": "v2",
+    "hard": false,
+    "dup_threshold": 0.375
+  },
+  {
+    "n": 150,
+    "fault_class_accuracy": 0.8,
+    "fault_class_macro_f1": 0.74,
+    "root_line_accuracy": 0.8037,
+    "severity_accuracy": 0.8692,
+    "duplicate_precision": 0.9767,
+    "duplicate_recall": 0.7119,
+    "duplicate_f1": 0.8235,
+    "citation_validity": 1.0,
+    "retry_rate": 0.0,
+    "human_review_rate": 0.0,
+    "mean_latency_s": 0.004,
+    "errors_by_class": {
+      "RRC_RLF": 7,
+      "PHY_SYNC_LOSS": 8,
+      "ATTACH_REJECT_PLMN": 6,
+      "NAS_REG_TIMEOUT": 2,
+      "AUTH_MAC_FAILURE": 2,
+      "HANDOVER_FAILURE": 1,
+      "PDN_REJECT_NO_IP": 3,
+      "MODEM_WATCHDOG_RESET": 1
+    },
+    "backend": "offline-rules",
+    "prompt": "v2",
+    "hard": true,
+    "dup_threshold": 0.45
+  }
+]

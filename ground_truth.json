@@ -1,0 +1,39 @@
+{
+ "sample_pass": {
+  "run_id": "run-0000",
+  "label": "PASS",
+  "severity": "none",
+  "root_line": null,
+  "known_defect": null,
+  "cascade": []
+ },
+ "sample_cascade_known_duplicate": {
+  "run_id": "run-0004",
+  "label": "PHY_SYNC_LOSS",
+  "severity": "high",
+  "root_line": 21,
+  "known_defect": "DEF-1042",
+  "cascade": [
+   "RRC_RLF",
+   "NAS_REG_TIMEOUT"
+  ]
+ },
+ "sample_novel_failure": {
+  "run_id": "run-0002",
+  "label": "MODEM_WATCHDOG_RESET",
+  "severity": "critical",
+  "root_line": 21,
+  "known_defect": null,
+  "cascade": []
+ },
+ "sample_hard_paraphrased": {
+  "run_id": "run-0005",
+  "label": "PHY_SYNC_LOSS",
+  "severity": "high",
+  "root_line": 28,
+  "known_defect": "DEF-1042",
+  "cascade": [
+   "RRC_RLF"
+  ]
+ }
+}

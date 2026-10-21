@@ -1,0 +1,51 @@
+2026-05-27 11:50:55.720 [INFO] [TEST] Test case TC-8379 started
+2026-05-27 11:50:56.252 [INFO] [NAS] UE powered on, RAT=LTE band 28
+2026-05-27 11:50:56.459 [INFO] [PHY] CQI report=4 RI=2
+2026-05-27 11:50:56.709 [WARN] [FW] Thermal throttling level 1 active
+2026-05-27 11:50:57.557 [WARN] [TEST] Test harness heartbeat delayed 6571 ms
+2026-05-27 11:50:58.190 [WARN] [PHY] Out-of-sync indication count=1 on cell 206, in-sync restored
+2026-05-27 11:50:59.090 [WARN] [IP] DNS response slow: 4091 ms
+2026-05-27 11:50:59.170 [INFO] [NAS] UE state: ECM-CONNECTED
+2026-05-27 11:50:59.722 [INFO] [RRC] Measurement report sent, serving RSRP=-109dBm neighbor PCI=152
+2026-05-27 11:50:59.953 [INFO] [NAS] UE state: EMM-NULL
+2026-05-27 11:51:00.251 [INFO] [NAS] UE state: ECM-CONNECTED
+2026-05-27 11:51:00.460 [INFO] [RRC] Measurement report sent, serving RSRP=-118dBm neighbor PCI=408
+2026-05-27 11:51:01.064 [WARN] [PHY] Out-of-sync indication count=1 on cell 303, in-sync restored
+2026-05-27 11:51:01.350 [INFO] [RRC] Measurement report sent, serving RSRP=-123dBm neighbor PCI=95
+2026-05-27 11:51:01.643 [WARN] [FW] Thermal throttling level 2 active
+2026-05-27 11:51:01.689 [INFO] [NAS] UE state: ECM-CONNECTED
+2026-05-27 11:51:01.919 [WARN] [FW] Thermal throttling level 5 active
+2026-05-27 11:51:02.230 [INFO] [RRC] RRC connection reconfiguration complete
+2026-05-27 11:51:02.583 [INFO] [IP] Default bearer active, IPv4 10.4.8.8045
+2026-05-27 11:51:03.086 [WARN] [TEST] Test harness heartbeat delayed 7467 ms
+2026-05-27 11:51:03.816 [INFO] [RRC] RRC connection reconfiguration complete
+2026-05-27 11:51:04.469 [WARN] [TEST] Test harness heartbeat delayed 5952 ms
+2026-05-27 11:51:04.616 [WARN] [TEST] Test harness heartbeat delayed 2612 ms
+2026-05-27 11:51:04.812 [INFO] [RRC] RRC connection reconfiguration complete
+2026-05-27 11:51:05.382 [INFO] [IP] Default bearer active, IPv4 10.1.7.5183
+2026-05-27 11:51:05.570 [WARN] [PHY] Out-of-sync indication count=1 on cell 286, in-sync restored
+2026-05-27 11:51:05.883 [WARN] [PHY] OOS indications reported: 2 (PCI 388)
+2026-05-27 11:51:06.439 [ERROR] [PHY] DL synchronization lost; signal quality RSRP=-107dBm SINR=1.1dB too low
+2026-05-27 11:51:06.729 [ERROR] [PHY] AGC saturation detected on band 20 during DL acquisition
+2026-05-27 11:51:06.850 [ERROR] [RRC] Radio link failure detected, timer T310 expired
+2026-05-27 11:51:06.897 [ERROR] [RRC] Connection re-establishment unsuccessful (cause otherFailure)
+2026-05-27 11:51:07.624 [INFO] [NAS] UE state: EMM-REGISTERED-INITIATED
+2026-05-27 11:51:08.505 [INFO] [RRC] Measurement report sent, serving RSRP=-116dBm neighbor PCI=70
+2026-05-27 11:51:09.118 [INFO] [RRC] RRC connection reconfiguration complete
+2026-05-27 11:51:09.183 [INFO] [IP] Default bearer active, IPv4 10.4.1.4261
+2026-05-27 11:51:09.309 [INFO] [PHY] CQI report=8 RI=2
+2026-05-27 11:51:09.922 [WARN] [TEST] Test harness heartbeat delayed 6147 ms
+2026-05-27 11:51:10.153 [INFO] [IP] Default bearer active, IPv4 10.3.9.5805
+2026-05-27 11:51:10.320 [INFO] [NAS] UE state: ECM-CONNECTED
+2026-05-27 11:51:11.131 [WARN] [PHY] Out-of-sync indication count=1 on cell 13, in-sync restored
+2026-05-27 11:51:11.463 [INFO] [RRC] Measurement report sent, serving RSRP=-89dBm neighbor PCI=497
+2026-05-27 11:51:11.506 [WARN] [PHY] Out-of-sync indication count=1 on cell 294, in-sync restored
+2026-05-27 11:51:11.611 [INFO] [PHY] CQI report=9 RI=2
+2026-05-27 11:51:12.282 [INFO] [IP] Default bearer active, IPv4 10.2.7.7657
+2026-05-27 11:51:12.624 [WARN] [TEST] Test harness heartbeat delayed 3446 ms
+2026-05-27 11:51:12.655 [WARN] [PHY] Out-of-sync indication count=1 on cell 150, in-sync restored
+2026-05-27 11:51:13.254 [INFO] [PHY] CQI report=15 RI=1
+2026-05-27 11:51:13.291 [WARN] [FW] Thermal throttling level 3 active
+2026-05-27 11:51:13.869 [INFO] [PHY] Cell 56 synchronized, PBCH decoded
+2026-05-27 11:51:13.975 [INFO] [PHY] CQI report=9 RI=1
+2026-05-27 11:51:14.515 [ERROR] [TEST] Test case result: FAIL

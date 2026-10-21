@@ -1,0 +1,44 @@
+2026-01-10 07:30:16.799 [INFO] [TEST] Test case TC-2478 started
+2026-01-10 07:30:17.253 [INFO] [NAS] UE powered on, RAT=LTE band 28
+2026-01-10 07:30:17.371 [INFO] [IP] Default bearer active, IPv4 10.4.8.2017
+2026-01-10 07:30:18.265 [INFO] [RRC] Measurement report sent, serving RSRP=-80dBm neighbor PCI=233
+2026-01-10 07:30:18.661 [WARN] [FW] Thermal throttling level 4 active
+2026-01-10 07:30:18.690 [WARN] [PHY] Out-of-sync indication count=1 on cell 453, in-sync restored
+2026-01-10 07:30:19.577 [INFO] [PHY] CQI report=15 RI=1
+2026-01-10 07:30:19.753 [INFO] [RRC] Measurement report sent, serving RSRP=-81dBm neighbor PCI=49
+2026-01-10 07:30:20.120 [WARN] [PHY] Out-of-sync indication count=1 on cell 382, in-sync restored
+2026-01-10 07:30:20.704 [WARN] [TEST] Test harness heartbeat delayed 6231 ms
+2026-01-10 07:30:21.166 [ERROR] [LOG] Log buffer overflow, 5 lines dropped
+2026-01-10 07:30:21.202 [WARN] [IP] DNS response slow: 6214 ms
+2026-01-10 07:30:21.961 [INFO] [NAS] UE state: EMM-REGISTERED
+2026-01-10 07:30:22.691 [WARN] [TEST] Test harness heartbeat delayed 3808 ms
+2026-01-10 07:30:23.385 [INFO] [RRC] Measurement report sent, serving RSRP=-123dBm neighbor PCI=224
+2026-01-10 07:30:23.550 [WARN] [IP] DNS response slow: 8210 ms
+2026-01-10 07:30:24.400 [INFO] [RRC] RRC connection reconfiguration complete
+2026-01-10 07:30:24.739 [WARN] [FW] Thermal throttling level 1 active
+2026-01-10 07:30:25.114 [WARN] [PHY] Out-of-sync indication count=1 on cell 412, in-sync restored
+2026-01-10 07:30:25.261 [INFO] [RRC] Measurement report sent, serving RSRP=-86dBm neighbor PCI=336
+2026-01-10 07:30:25.735 [INFO] [IP] Default bearer active, IPv4 10.5.7.3747
+2026-01-10 07:30:26.156 [INFO] [PHY] CQI report=15 RI=1
+2026-01-10 07:30:26.281 [WARN] [PHY] Out-of-sync indication count=1 on cell 126, in-sync restored
+2026-01-10 07:30:26.448 [INFO] [IP] Default bearer active, IPv4 10.4.1.885
+2026-01-10 07:30:26.827 [INFO] [NAS] UE state: EMM-REGISTERED
+2026-01-10 07:30:26.908 [INFO] [IP] Default bearer active, IPv4 10.2.6.913
+2026-01-10 07:30:27.132 [INFO] [RRC] Measurement report sent, serving RSRP=-74dBm neighbor PCI=25
+2026-01-10 07:30:27.298 [ERROR] [NVM] NVRAM read retry succeeded after 2 attempt(s)
+2026-01-10 07:30:28.066 [INFO] [NAS] UE state: EMM-REGISTERED-INITIATED
+2026-01-10 07:30:28.274 [INFO] [PHY] Cell 156 synchronized, PBCH decoded
+2026-01-10 07:30:28.426 [WARN] [FW] Thermal throttling level 5 active
+2026-01-10 07:30:28.915 [WARN] [PHY] Out-of-sync indication count=1 on cell 163, in-sync restored
+2026-01-10 07:30:29.590 [WARN] [FW] Thermal throttling level 4 active
+2026-01-10 07:30:30.224 [INFO] [RRC] RRC connection reconfiguration complete
+2026-01-10 07:30:31.066 [INFO] [RRC] Measurement report sent, serving RSRP=-77dBm neighbor PCI=21
+2026-01-10 07:30:31.542 [INFO] [NAS] UE state: EMM-NULL
+2026-01-10 07:30:32.083 [INFO] [PHY] CQI report=9 RI=1
+2026-01-10 07:30:32.225 [INFO] [IP] Default bearer active, IPv4 10.1.2.4540
+2026-01-10 07:30:32.510 [INFO] [PHY] CQI report=8 RI=1
+2026-01-10 07:30:32.987 [WARN] [IP] DNS response slow: 5819 ms
+2026-01-10 07:30:33.585 [WARN] [FW] Thermal throttling level 2 active
+2026-01-10 07:30:34.182 [WARN] [TEST] Test harness heartbeat delayed 7381 ms
+2026-01-10 07:30:34.365 [WARN] [TEST] Test harness heartbeat delayed 5427 ms
+2026-01-10 07:30:34.532 [INFO] [TEST] Test case result: PASS

@@ -1,0 +1,39 @@
+2026-06-11 02:45:40.285 [INFO] [TEST] Test case TC-1758 started
+2026-06-11 02:45:40.539 [INFO] [NAS] UE powered on, RAT=LTE band 20
+2026-06-11 02:45:41.018 [INFO] [RRC] Measurement report sent, serving RSRP=-118dBm neighbor PCI=138
+2026-06-11 02:45:41.848 [INFO] [PHY] CQI report=9 RI=1
+2026-06-11 02:45:42.390 [WARN] [IP] DNS response slow: 4141 ms
+2026-06-11 02:45:42.859 [WARN] [FW] Thermal throttling level 4 active
+2026-06-11 02:45:43.001 [INFO] [NAS] UE state: EMM-REGISTERED-INITIATED
+2026-06-11 02:45:43.119 [INFO] [IP] Default bearer active, IPv4 10.2.8.4923
+2026-06-11 02:45:43.424 [WARN] [PHY] Out-of-sync indication count=1 on cell 182, in-sync restored
+2026-06-11 02:45:44.264 [INFO] [IP] Default bearer active, IPv4 10.3.4.2792
+2026-06-11 02:45:45.062 [WARN] [PHY] Out-of-sync indication count=1 on cell 224, in-sync restored
+2026-06-11 02:45:45.364 [INFO] [RRC] Measurement report sent, serving RSRP=-96dBm neighbor PCI=125
+2026-06-11 02:45:45.671 [INFO] [PHY] CQI report=8 RI=1
+2026-06-11 02:45:46.182 [WARN] [TEST] Test harness heartbeat delayed 4828 ms
+2026-06-11 02:45:47.021 [INFO] [RRC] Measurement report sent, serving RSRP=-83dBm neighbor PCI=54
+2026-06-11 02:45:47.318 [INFO] [NAS] UE state: EMM-NULL
+2026-06-11 02:45:48.214 [WARN] [FW] Thermal throttling level 3 active
+2026-06-11 02:45:48.532 [WARN] [FW] Thermal throttling level 3 active
+2026-06-11 02:45:49.189 [INFO] [NAS] UE state: EMM-NULL
+2026-06-11 02:45:49.474 [INFO] [PHY] Cell 194 synchronized, PBCH decoded
+2026-06-11 02:45:50.365 [FATAL] [FW] Watchdog timeout in task nas_main, no heartbeat for 3622 ms
+2026-06-11 02:45:51.238 [FATAL] [FW] Assertion failed at phy_mac.c:2579, triggering modem subsystem restart
+2026-06-11 02:45:51.312 [WARN] [TEST] Test harness heartbeat delayed 3727 ms
+2026-06-11 02:45:51.714 [WARN] [TEST] Test harness heartbeat delayed 1044 ms
+2026-06-11 02:45:51.818 [WARN] [TEST] Test harness heartbeat delayed 1466 ms
+2026-06-11 02:45:52.131 [WARN] [PHY] Out-of-sync indication count=1 on cell 12, in-sync restored
+2026-06-11 02:45:52.694 [INFO] [PHY] Cell 308 synchronized, PBCH decoded
+2026-06-11 02:45:53.446 [INFO] [PHY] Cell 281 synchronized, PBCH decoded
+2026-06-11 02:45:54.030 [WARN] [FW] Thermal throttling level 1 active
+2026-06-11 02:45:54.337 [INFO] [IP] Default bearer active, IPv4 10.3.9.7467
+2026-06-11 02:45:54.696 [INFO] [RRC] Measurement report sent, serving RSRP=-78dBm neighbor PCI=422
+2026-06-11 02:45:55.113 [INFO] [IP] Default bearer active, IPv4 10.1.6.8009
+2026-06-11 02:45:55.907 [WARN] [FW] Thermal throttling level 3 active
+2026-06-11 02:45:56.323 [WARN] [TEST] Test harness heartbeat delayed 8043 ms
+2026-06-11 02:45:57.218 [WARN] [IP] DNS response slow: 7109 ms
+2026-06-11 02:45:57.595 [WARN] [IP] DNS response slow: 5919 ms
+2026-06-11 02:45:58.009 [WARN] [PHY] Out-of-sync indication count=1 on cell 431, in-sync restored
+2026-06-11 02:45:58.854 [INFO] [NAS] UE state: ECM-CONNECTED
+2026-06-11 02:45:59.302 [ERROR] [TEST] Test case result: FAIL

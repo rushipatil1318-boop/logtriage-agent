@@ -1,0 +1,49 @@
+2026-09-15 03:07:19.313 [INFO] [TEST] Test case TC-2644 started
+2026-09-15 03:07:19.449 [INFO] [NAS] UE powered on, RAT=LTE band 20
+2026-09-15 03:07:19.880 [INFO] [RRC] Measurement report sent, serving RSRP=-120dBm neighbor PCI=359
+2026-09-15 03:07:20.480 [INFO] [PHY] CQI report=5 RI=2
+2026-09-15 03:07:20.585 [WARN] [FW] Thermal throttling level 3 active
+2026-09-15 03:07:21.423 [WARN] [IP] DNS response slow: 8759 ms
+2026-09-15 03:07:22.086 [WARN] [TEST] Test harness heartbeat delayed 7832 ms
+2026-09-15 03:07:22.845 [INFO] [RRC] Measurement report sent, serving RSRP=-80dBm neighbor PCI=124
+2026-09-15 03:07:23.488 [WARN] [FW] Thermal throttling level 5 active
+2026-09-15 03:07:23.858 [WARN] [FW] Thermal throttling level 3 active
+2026-09-15 03:07:24.169 [INFO] [IP] Default bearer active, IPv4 10.5.2.7744
+2026-09-15 03:07:24.199 [WARN] [PHY] Out-of-sync indication count=1 on cell 327, in-sync restored
+2026-09-15 03:07:24.761 [INFO] [PHY] CQI report=6 RI=1
+2026-09-15 03:07:25.364 [INFO] [RRC] RRC connection reconfiguration complete
+2026-09-15 03:07:26.235 [INFO] [IP] Default bearer active, IPv4 10.3.7.8864
+2026-09-15 03:07:26.765 [INFO] [NAS] UE state: EMM-REGISTERED
+2026-09-15 03:07:27.575 [INFO] [PHY] CQI report=4 RI=2
+2026-09-15 03:07:28.051 [WARN] [IP] DNS response slow: 298 ms
+2026-09-15 03:07:28.828 [INFO] [PHY] CQI report=5 RI=2
+2026-09-15 03:07:28.948 [WARN] [PHY] Out-of-sync indication count=8 on cell 316
+2026-09-15 03:07:29.084 [ERROR] [PHY] Downlink sync lost, RSRP=-108dBm SINR=-7.0dB below threshold
+2026-09-15 03:07:29.704 [ERROR] [PHY] AGC saturation detected on band 20 during DL acquisition
+2026-09-15 03:07:30.465 [ERROR] [RRC] Radio link failure detected, timer T310 expired
+2026-09-15 03:07:31.123 [ERROR] [RRC] RRC re-establishment failed, cause=otherFailure
+2026-09-15 03:07:32.015 [ERROR] [NAS] T3410 expired, attempt 5/5 for attach request
+2026-09-15 03:07:32.780 [ERROR] [NAS] Registration failed after max retries, returning to EMM-DEREGISTERED
+2026-09-15 03:07:32.915 [INFO] [IP] Default bearer active, IPv4 10.1.9.5041
+2026-09-15 03:07:33.714 [INFO] [PHY] CQI report=13 RI=2
+2026-09-15 03:07:34.511 [INFO] [IP] Default bearer active, IPv4 10.5.3.3139
+2026-09-15 03:07:34.788 [INFO] [RRC] RRC connection reconfiguration complete
+2026-09-15 03:07:35.483 [WARN] [IP] DNS response slow: 6595 ms
+2026-09-15 03:07:36.101 [WARN] [IP] DNS response slow: 269 ms
+2026-09-15 03:07:36.882 [INFO] [PHY] Cell 253 synchronized, PBCH decoded
+2026-09-15 03:07:37.656 [INFO] [PHY] Cell 411 synchronized, PBCH decoded
+2026-09-15 03:07:38.438 [WARN] [PHY] Out-of-sync indication count=1 on cell 488, in-sync restored
+2026-09-15 03:07:38.471 [INFO] [RRC] Measurement report sent, serving RSRP=-89dBm neighbor PCI=325
+2026-09-15 03:07:38.502 [INFO] [PHY] Cell 82 synchronized, PBCH decoded
+2026-09-15 03:07:39.375 [WARN] [TEST] Test harness heartbeat delayed 7003 ms
+2026-09-15 03:07:40.209 [WARN] [FW] Thermal throttling level 5 active
+2026-09-15 03:07:40.942 [WARN] [IP] DNS response slow: 1108 ms
+2026-09-15 03:07:40.969 [INFO] [RRC] Measurement report sent, serving RSRP=-109dBm neighbor PCI=438
+2026-09-15 03:07:41.526 [WARN] [IP] DNS response slow: 4989 ms
+2026-09-15 03:07:41.643 [INFO] [PHY] CQI report=15 RI=2
+2026-09-15 03:07:42.176 [INFO] [IP] Default bearer active, IPv4 10.1.7.465
+2026-09-15 03:07:42.721 [WARN] [PHY] Out-of-sync indication count=1 on cell 487, in-sync restored
+2026-09-15 03:07:42.877 [WARN] [FW] Thermal throttling level 4 active
+2026-09-15 03:07:43.070 [INFO] [IP] Default bearer active, IPv4 10.5.3.4255
+2026-09-15 03:07:43.125 [INFO] [RRC] Measurement report sent, serving RSRP=-125dBm neighbor PCI=44
+2026-09-15 03:07:43.291 [ERROR] [TEST] Test case result: FAIL
