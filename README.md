@@ -2,8 +2,8 @@
 
 LLM-assisted **log analysis and defect triage** for cellular/modem-style test runs.
 Given a failed test log, the agent finds the root-cause line, classifies the fault, cites evidence,
-and checks whether the failure duplicates a known defect, with deterministic verification so the
-LLM cannot invent evidence.
+and checks whether the failure duplicates a known defect, with deterministic checks that reject citations to missing lines or mismatched quotations.
+These checks do not establish that every cited line supports the predicted root cause.
 
 Built as a student project on the theme of *AI/ML automation for cellular software testing*:
 LLM APIs, a RAG-style defect lookup, an agentic workflow (LangGraph), an MCP tool server,
@@ -49,9 +49,9 @@ flowchart LR
 | offline keyword rules | hard (paraphrased) | 0.80 | 0.74 | 0.80 | 0.82 | 1.00 |
 
 The keyword baseline is perfect on the easy data (it was written against that wording) and drops 20 points
-when firmware wording changes. **That gap is the room an LLM should fill.** Add your own rows by running
-`python -m logtriage.evaluate --backend anthropic --prompt v1 v2 --hard --n 60` (see below) and paste the table
-into this README. Protocol: a dev split (seed 1) is used only to fit routine-error statistics and tune the
+when firmware wording changes. A real-model comparison is needed to establish whether an LLM closes that gap. No such results are reported here.
+To run a comparison, use `python -m logtriage.evaluate --backend anthropic --prompt v1 v2 --hard --n 60` (see below)
+and report the provider, model, sample size and measured results separately from the offline baseline. Protocol: a dev split (seed 1) is used only to fit routine-error statistics and tune the
 duplicate threshold; reported numbers come from a separate test split (seed 2).
 
 ## Quickstart
